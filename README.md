@@ -9,7 +9,7 @@ config/scene/launch files to bringup/control ur5 using roscontrol plugin in copp
 * [ur_gazebo](https://github.com/ros-industrial/universal_robot)
 
 ### demo:
-* follow the [HOW TO RUN](README) instructions to run coppeliasim_ros_control plugin 
+* follow the [HOW TO RUN](https://github.com/tud-cor/coppeliasim_ros_control) section to run coppeliasim_ros_control plugin 
 * clone pkg, check pkg dependencies, and build your worksapce
 
 [![IMAGE](video.png)](https://www.youtube.com/watch?v=2KqA-2pOi4A)
