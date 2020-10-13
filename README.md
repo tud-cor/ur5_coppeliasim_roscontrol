@@ -5,10 +5,10 @@
 - [coppeliasim_ros_control][]: a plugin to integrate ros_control controller into CoppeliaSim simulator
 - [coppeliasim_ros_services][]: a plugin contains a collection of ros-services servers to enable a remote-control of the coppeliasim simulator
 - [coppeliasim_msgs_srvs][]: contains the definitations of the required msgs and srvs that enable ros to communicate with/control the coppeliasim simulator
-- [coppeliasim_run][]: runs coppeliasim as a ROS node using a system() call
-- [ur_description][]: contains the description of the ur5 robot  
-- [ur_gazebo][]: contains the arm_controller_ur5.yaml file 
-- [ur5_moveit_config][]: conatians all launch files required for moveit to control the ur5 robot. 
+- [coppeliasim_run][]: to run coppeliasim as a ROS node using a system() call
+- [ur_description][]: contains the description of the ur5 robot   
+- [ur_gazebo][]: contains the `arm_controller` which will be used to control the ur5 robot
+- [ur5_moveit_config][]: conatians all launch files required for moveit to control the ur5 robot
 
 
 ### Building 
