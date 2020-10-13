@@ -73,7 +73,7 @@ This package contains configuration/launch/scene files to control ur5 robot in c
     - spawn your controller using the `controller_manager` pkg 
 
 ### video
-[![IMAGE](video.png)](https://www.youtube.com/watch?v=2KqA-2pOi4A)
+[![IMAGE](video.png)](https://www.youtube.com/watch?v=WK6bwepiAZ0&ab_channel=mahmoudali)
 
 
 
