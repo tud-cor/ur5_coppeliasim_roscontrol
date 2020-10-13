@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
 <launch>
 
-  <!-- start this controller -->
+  <!-- load controller -->
   <rosparam file="$(find ur_gazebo)/controller/arm_controller_ur5.yaml" command="load"/>
   <include file="$(find ur_gazebo)/launch/controller_utils.launch"/>
   <node name="arm_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn arm_controller" respawn="false" output="screen"/>
 
+  <!-- ur5 moveit_config pkg -->
   <include file="$(find ur5_moveit_config)/launch/ur5_moveit_planning_execution.launch">
     <arg name="sim" value="true"/>
   </include>
 
-
-    <include file="$(find ur5_moveit_config)/launch/moveit_rviz.launch">
+  <!-- launch rviz with ur5 moveit config -->
+  <include file="$(find ur5_moveit_config)/launch/moveit_rviz.launch">
     <arg name="config" value="true"/>
   </include>
 
