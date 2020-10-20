@@ -45,7 +45,7 @@ Copy both the `libsimExtRosControl.so` and the `libsimExtRosServices.so` plugins
 cp  $HOME/catkin_ws/devel/lib/libsimExtRosControl.so  $HOME/CoppeliaSim/
 cp  $HOME/catkin_ws/devel/lib/libsimExtRosServices.so  $HOME/CoppeliaSim/
 ```
-Launch the demo using the `ur5_demo.launch` launch file
+Launch the demo using the `ur5_demo.launch` launch file:
 ```
  roslaunch ur5_coppeliasim_roscontrol ur5_demo.launch 
 ```
