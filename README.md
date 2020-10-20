@@ -7,7 +7,7 @@
 - [coppeliasim_msgs_srvs][]: contains the required `.msg`s and `.srv`s that enable ROS to communicate with and control the CoppeliaSim simulator
 - [coppeliasim_run][]: to run CoppeliaSim as a ROS node using a `system(..)` call
 - [ur_description][]: contains the description of the UR5 robot   
-- [ur_gazebo][]: contains the `arm_controller` which will be used to control the ur5 robot
+- [ur_gazebo][]: contains the `arm_controller` which will be used to control the UR5 robot
 - [ur5_moveit_config][]: conatians all launch files required for moveit to control the ur5 robot
 
 
