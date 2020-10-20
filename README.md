@@ -68,7 +68,7 @@ This package contains configuration/launch/scene files to control ur5 robot in c
 - Create a `controller.yaml` file to specify which controller you want to use to control your own robot.
 - Create a `.launch` file to:
     - start CoppeliaSim, pass your robot_scene `scene.ttt` as an argument to the `coppeliasim` node
-    - load your robot_description from your `.xacro` or `.urdf` file to the param server
+    - load your `robot_description` from your `.xacro` or `.urdf` file to the param server
     - load your `controller.yaml` to param server
     - spawn your controller using the `controller_manager` pkg 
 
