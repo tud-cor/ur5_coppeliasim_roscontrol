@@ -28,7 +28,7 @@ The following instructions assume that a Catkin workspace has been created at `$
  git clone https://github.com/mahmoud-a-ali/coppeliasim_run
  git clone https://github.com/ros-industrial/universal_robot
 
-# change to the main catkin workspace
+# change to the root of the Catkin workspace
  cd ..
 
 # build the workspace (using catkin_tools)
