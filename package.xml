@@ -51,10 +51,6 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>roscpp</build_depend>
-  <build_depend>ur_description</build_depend>
-  <build_depend>ur5_moveit_config</build_depend>
-  <build_depend>ur_gazebo</build_depend>
-  <build_depend>coppeliasim_run</build_depend>
 
 
   <exec_depend>roscpp</exec_depend>
@@ -62,6 +58,9 @@
   <exec_depend>ur5_moveit_config</exec_depend>
   <exec_depend>ur_gazebo</exec_depend>
   <exec_depend>coppeliasim_run</exec_depend>
+  <exec_depend>coppeliasim_msgs_srvs</exec_depend>
+  <exec_depend>coppeliasim_ros_control</exec_depend>
+  <exec_depend>coppeliasim_ros_services</exec_depend>
 
 
   <build_export_depend>roscpp</build_export_depend>
