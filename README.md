@@ -1,5 +1,5 @@
 # ur5_coppeliasim_roscontrol
- A demo shows a full integration of roscontrol controllers and coppeliasim simulator. This package contains the required configuration, scene, and launch files to bringup and control ur5 robot in coppeliasim. This demo is a direct application of both the [RosControl][] and the [RosServices][] plugins.
+ A demo shows a full integration of `ros_control` controllers and CoppeliaSim simulator. This package contains the required configuration, scene, and `.launch` files to bring up and control a UR5 robot in CoppeliaSim. This demo is a direct application of both the [RosControl][] and the [RosServices][] plugins provided by `coppeliasim_ros_control` and `coppeliasim_ros_services`.
  
 ## Dependencies
 - [coppeliasim_ros_control][]: a plugin to integrate ros_control controller into CoppeliaSim simulator
