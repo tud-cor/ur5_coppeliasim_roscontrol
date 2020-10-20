@@ -66,7 +66,7 @@ By launching the `ur5_demo.launch` launch file, you will see two windows: coppel
 This package contains configuration/launch/scene files to control ur5 robot in coppeliasiom. If you want to create your own configuration package to control your own robot in coppeliasim, follow these steps:
 - Create a scene file in CoppeliaSim for your own robot (e.g. `scene.ttt`). If the model of the robot you are using is available in CoppeliaSim, then you just need to create a new scene and drag the model of your robot into the scene. If it is not available, you can use the [urdf_plugin][] to convert your urdf model to a CoppeliaSim scene.
 - Create a `controller.yaml` file to specify which controller you want to use to control your own robot.
-- Create a launch file to:
+- Create a `.launch` file to:
     - start coppeliasim, pass your robot_scene `scene.ttt` as an argument to the coppeliasim node
     - load your robot_description from your `.xacro` or `.urdf` file to the param server
     - load your `controller.yaml` to param server
