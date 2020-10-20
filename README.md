@@ -18,7 +18,7 @@ The following instructions assume that a Catkin workspace has been created at `$
 # change to the src directory in your Catkin workspace
  cd $HOME/catkin_ws/src
 
-# Clone Coppeliasim_ros_control pkg 
+# Clone coppeliasim_ros_control pkg 
  git clone https://github.com/mahmoud-a-ali/ur5_coppeliasim_roscontrol
 
 # Clone all dependencies in same workspace
