@@ -3,7 +3,7 @@
  
 ## Dependencies
 - [coppeliasim_ros_control][]: a plugin to integrate ros_control controller into CoppeliaSim simulator
-- [coppeliasim_ros_services][]: a plugin contains a collection of ros-services servers to enable a remote-control of the coppeliasim simulator
+- [coppeliasim_ros_services][]: this plugin supports a collection of ROS services to enable remote control of the CoppeliaSim simulator
 - [coppeliasim_msgs_srvs][]: contains the definitations of the required msgs and srvs that enable ros to communicate with/control the coppeliasim simulator
 - [coppeliasim_run][]: to run coppeliasim as a ROS node using a system() call
 - [ur_description][]: contains the description of the ur5 robot   
