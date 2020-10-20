@@ -50,7 +50,7 @@ Launch the demo using the `ur5_demo.launch` launch file:
  roslaunch ur5_coppeliasim_roscontrol ur5_demo.launch 
 ```
 the `ur5_demo.launch` launch file will:
-- start coppeliasim simulator with a scene includes a ur5 robot
+- start CoppeliaSim itself, with a scene which includes the UR5
 - start the simulation
 - load ur5 description to param-server by launching the `ur5_upload.launch` file from the `ur_description` pkg
 - load the `arm_controller_ur5.yaml` file from the `ur_gazebo` pkg, the arm_controller is a `position_controllers/JointTrajectoryController` ros-controller
