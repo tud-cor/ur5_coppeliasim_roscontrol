@@ -59,7 +59,7 @@ the `ur5_demo.launch` launch file will:
 - launch the `ur5_moveit_planning_execution.launch` file from the `ur5_moveit_config` pkg
 - launch the `moveit_rviz.launch`file from the `ur5_moveit_config` pkg
 
-By launching the `ur5_demo.launch` launch file, you will see two windows: coppeliasim (with a running simulation for ur5 robot) and rviz (with a motionplanning interface configured for ur5 robot), then you can use the motion planning interface in rviz to control the ur5 robot in coppeliasim. you can use also the available msgs/srvs to control the simulation inside coopeliasim.
+By launching the `ur5_demo.launch` launch file, you will see two windows: CoppeliaSim (with a running simulation of a UR5) and RViz (with a motion planning interface configured for the UR5), then you can use the motion planning interface in RViz to control the UR5 in CoppeliaSim. You can use also the available topics and services to control the simulation inside CoppeliaSim.
 
 
 ### Generate your own configuration package
