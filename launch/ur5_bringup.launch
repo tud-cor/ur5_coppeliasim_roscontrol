@@ -9,7 +9,7 @@
   <node name="start_coppeliasim" pkg="coppeliasim_run" type="start_coppeliasim" args=" -s $(find ur5_coppeliasim_roscontrol)/scene/ur5_urdf.ttt"  output="screen"/>
 
 
-  <!-- send robot urdf to param server -->
+  <!-- load robot description to param server -->
   <include file="$(find ur_description)/launch/ur5_upload.launch">
     <arg name="limited" value="$(arg limited)"/>
   </include>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+<!-- start coppeliasim and load ur5 description -->
+<include file="$(find ur5_coppeliasim_roscontrol)/launch/ur5_bringup.launch"/>
+
+<!-- load ur5 conroller, launch after 5 sec of starting coppeliasim-->
+<node pkg="timed_roslaunch" type="timed_roslaunch.sh" args="5 ur5_coppeliasim_roscontrol ur5_control.launch" name="timed_roslaunch" output="screen" />
+
+
+</launch>
